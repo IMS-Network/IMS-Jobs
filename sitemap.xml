@@ -27,9 +27,6 @@
 		<loc>https://jobs.ims-network.net/software-engineer.html</loc>
 	</url>
 	<url>
-		<loc>https://jobs.ims-network.net/page10.html</loc>
-	</url>
-	<url>
 		<loc>https://jobs.ims-network.net/getjob.html</loc>
 	</url>
 	<url>
@@ -55,5 +52,8 @@
 	</url>
 	<url>
 		<loc>https://jobs.ims-network.net/UX.html</loc>
+	</url>
+	<url>
+		<loc>https://jobs.ims-network.net/security-developer.html</loc>
 	</url>
 </urlset>
