@@ -28,17 +28,17 @@ $template = "היי,<br><br>מערכת עובדים קיבלת תופס קורו
 $autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
 $autorespondSubject = "IMS - Jobs | Auto Respond";						// Autorespond Custom Subject
 $autorespondTemplate = ",{name} היי<br><br>תודה שאתם רוצים לקחת חלק<br>הטופס והקבצים שלכם נשלחו והתקבלו בהצלחה<br>בדרך כלל לוקח 48 שעות עד שיצרו איתכם קשר לראיון טלפוני ראשוני<br><br>להלן העתק מידע<br><br>{formdata}<br><br>---<br>שיהיה לכם יום טוב, מערכת עבודות";					// Autorespond Template
-$rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
-$rcpVersion = "captcha";								// reCAPTCHA Version
+$rcp = ("0" == "1" ? true : false);						// Use reCAPTCHA
+$rcpVersion = "3";								// reCAPTCHA Version
 $rcpScore = "0.5";									// reCAPTCHA Score
 $rcpSecret = "";								// reCAPTCHA Secret Key
-$smtp = ("1" == "1" ? true : false);							// Use SMTP
+$smtp = ("0" == "1" ? true : false);							// Use SMTP
 $smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
-$smtpHost = "smtp-relay.sendinblue.com";											// SMTP Host
-$smtpPort = "587";											// SMTP Port
-$smtpSecure = "tls";										// SMTP Use SSL/TLS (empty, ssl or tls)
-$smtpUsername = "israelmincraft.ml@gmail.com";									// SMTP Username
-$smtpPassword = "p2bsYmHCwWZDFxrE";									// SMTP Password
+$smtpHost = "";											// SMTP Host
+$smtpPort = "";											// SMTP Port
+$smtpSecure = "";										// SMTP Use SSL/TLS (empty, ssl or tls)
+$smtpUsername = "";									// SMTP Username
+$smtpPassword = "";									// SMTP Password
 $attachmentsMimeTypes = explode(",", "application/gzip,application/java-archive,application/json,application/ld+json,application/msword,application/ogg,application/pdf,application/rtf,application/vnd.amazon.ebook,application/vnd.api+json,application/vnd.apple.installer+xml,application/vnd.mozilla.xul+xml,application/vnd.ms-excel,application/vnd.ms-fontobject,application/vnd.ms-powerpoint,application/vnd.oasis.opendocument.presentation,application/vnd.oasis.opendocument.spreadsheet,application/vnd.oasis.opendocument.text,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.rar,application/vnd.visio,application/x-7z-compressed,application/x-abiword,application/x-bzip,application/x-bzip2,application/x-freearc,application/x-httpd-php,application/x-tar,application/x-www-form-urlencoded,application/xhtml+xml,application/xml,application/zip,application/zstd,audio/*,font/*,image/*,multipart/form-data,text/plain,text/calendar,text/css,text/csv,text/rtf,video/*");	// Mime Types
 
 
