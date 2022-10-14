@@ -1,3 +1,13 @@
+# Upadte 0.4
+
+- Fixed Links
+- Fixed Isuues Loding
+- Fixed Navigation
+- Fixed Loding
+- Added LazyLoad
+- Fixed Issues With Cloudflare’s smart CAPTCHA
+- Fixed Links To Team Hub
+
 # Upadte 0.3
 
 - Removed 13 Pages
