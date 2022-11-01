@@ -1,21 +1,35 @@
-# Upadte 0.4
+# Update 0.5
+- Fixed Typos
+- Removed Translation System
+- Removed Page
+- Code Cleanup
+- Better CSS
+- New Link For Team Forums
+- Updated Footer
+- Improved Loading On Mobile
+- Clannad Unsued Images
+- Removed Unused CSS elements
+- Changed the [LICENCE](LICENSE.md)
+- Updated [README.md](README.md)
+
+# Update 0.4
 
 - Fixed Links
-- Fixed Isuues Loding
+- Fixed Issues Loading
 - Fixed Navigation
-- Fixed Loding
+- Fixed Loading
 - Added LazyLoad
 - Fixed Issues With Cloudflare’s smart CAPTCHA
 - Fixed Links To Team Hub
 
-# Upadte 0.3
+# Update 0.3
 
 - Removed 13 Pages
-- Added IMS - Analytics Traking
+- Added IMS - Analytics Tracking
 - Added Cloudflare’s smart CAPTCHA
-- Fixed Page Loding On Mobile
+- Fixed Page Loading On Mobile
 
-# Upadte 0.2
+# Update 0.2
 
 - Fixed SMTP Crdintials Leak
 - Added Links
@@ -26,5 +40,5 @@
 
 - Init Pages
 - Added 22 Pages
-- Added Froums
+- Added Forums
 - Added CSS
